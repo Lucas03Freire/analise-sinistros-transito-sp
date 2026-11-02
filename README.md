@@ -1,20 +1,12 @@
 # Análise de Sinistros de Trânsito — São Paulo
 
-Projeto de análise exploratória de dados e Business Intelligence com Python e Power BI, utilizando registros de sinistros de trânsito do estado de São Paulo.
+Projeto de análise exploratória de dados e Business Intelligence com Python e Power BI, utilizando registros de sinistros de trânsito do estado de São Paulo referentes a agosto de 2026.
 
 ## Sobre o projeto
 
-O objetivo deste projeto é explorar a distribuição dos registros de sinistros de trânsito por município, tipo de via e tipo de ocorrência, transformando os dados em informações que possam ser interpretadas por meio de gráficos e dashboards interativos.
+O objetivo é explorar a estrutura e a qualidade dos dados, investigar a distribuição dos registros por dia da semana, turno, município, tipo de via e tipo de ocorrência, além de comparar a quantidade de registros com a proporção daqueles classificados como fatais.
 
-A análise utiliza dados referentes a agosto de 2026 e faz parte de um projeto de portfólio voltado à prática de análise de dados.
-
-## Objetivos
-
-- Explorar e compreender a estrutura e a qualidade dos dados.
-- Investigar a distribuição dos registros por dia da semana, turno, município e tipo de ocorrência.
-- Comparar a quantidade de registros com a proporção de registros classificados como fatais.
-- Desenvolver um dashboard interativo no Power BI.
-- Documentar limitações e inconsistências encontradas durante a análise.
+A partir dessa análise, foram desenvolvidas visualizações em Python e um dashboard interativo no Power BI, buscando transformar os dados em informações relevantes e documentar as limitações e inconsistências identificadas durante o processo.
 
 ## Tecnologias utilizadas
 
@@ -132,7 +124,7 @@ Essa diferença representa a distribuição dos registros disponíveis, não uma
 
 ![Registros por tipo de veiculo](reports/figures/registros_por_tipo_de_veiculo.png)
 
-Automóveis e motocicletas concentraram a maior quantidade de registros, com 6.609 e 6.671 ocorrências, respectivamente, considerando as classificações fatais e não fatais.
+Automóveis e motocicletas foram as categorias com maior presença nos registros, com 6.609 e 6.671 registros, respectivamente, considerando as classificações fatais e não fatais.
 
 Entre os registros fatais, as motocicletas apresentaram o maior número, com 259 ocorrências, seguidas pelos automóveis, com 213. Pedestres também merecem destaque, com 102 registros fatais, enquanto caminhões contabilizaram 79.
 
@@ -142,9 +134,10 @@ Um mesmo registro pode envolver diferentes tipos de veículos ou pedestres. Por 
 
 ### Visão geral
 ![Visão geral do dashboard](reports/dashboard/pagina_1.png)
-
+Apresenta um panorama dos registros de sinistros de trânsito em São Paulo, com indicadores gerais e gráficos sobre a distribuição por tipo de via e turno, permitindo uma compreensão inicial dos dados.
 ### Análise detalhada
 ![Análise detalhada](reports/dashboard/pagina_2.png)
+Explora os registros sob diferentes perspectivas, incluindo dia da semana, municípios e tipos de ocorrência, permitindo identificar padrões e diferenças na distribuição dos sinistros.
 
 
 ## Limitações e qualidade dos dados
