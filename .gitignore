@@ -1,0 +1,22 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# PyCharm
+.idea/
+*.iml
+
+# Environment variables
+.env
+.env.*
+
+# Temporary files
+*.log
+.ipynb_checkpoints/
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
