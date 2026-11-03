@@ -173,7 +173,7 @@ Dados públicos de sinistros de trânsito disponibilizados pelo Governo do Estad
 
 1. Clone este repositório:
    ```bash
-   git clone URL_DO_REPOSITORIO
+   git clone https://github.com/Lucas03Freire/analise-sinistros-transito-sp.git
    ```
 2. Acesse a pasta do projeto:
    ```bash
